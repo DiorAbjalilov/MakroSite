@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.imgCursor {
+    /* border: 1px solid black; */
+    z-index: 3;
+    width: 52%;
+}
+.imgCursor .time img{
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.imgCursor .bg_image img {
+    position: absolute;
+    width: 45%;
+    top: 20px;
+    z-index: 6;
+}
+.imgCursor .shape_img img {
+    width: 120px;
+    position: absolute;
+    z-index: 5;
+}
+.imgCursor .cloud_1 img{
+    right: 30px;
+}
+.imgCursor .cloud_2 img{
+    right: 550px;
+}
+.imgCursor .cloud_3 img{
+    top: 280px;
+    right: 620px;
+}
+.imgCursor .leaf img {
+    position: absolute;
+    width: 60px;
+}
+.imgCursor .leaf_1 img {
+    right: 710px;
+    top: 420px;
+}
+.imgCursor .leaf_2 img {
+    right: 10px;
+    top: 380px;
+}
+
+.body_wrap .imgBig img:nth-child(3){
+    width: 150px;
+    left: -80px;
+    top: 380px;
+}

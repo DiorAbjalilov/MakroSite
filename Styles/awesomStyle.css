@@ -1,0 +1,204 @@
+.elementor-column-wrap {
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+}
+.elementor-column, .elementor-column-wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.feature_section.bg_flow {
+    background-image: url('../Imgs/shape/bg_5.png');
+    min-height: 770px;
+    padding-top: 200px;
+    background-size: cover;
+    background-position: center top;
+}
+.deco_wrap {
+    z-index: 1;
+    position: relative;
+}
+.sec_ptb_120 {
+    padding: 120px 0px;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.feature_section .shape_2 {
+    left: 15px;
+    top: 135px;
+    max-width: 200px;
+}
+.deco_wrap .deco_image {
+    z-index: -1;
+    position: absolute;
+}
+.feature_section .feature_item:last-child {
+    margin-bottom: 0px !important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media screen and (max-width: 1480px){
+.feature_section .feature_image .phone_image {
+    left: -42px;
+    bottom: -20px;
+    max-width: 140px;
+}
+}
+.feature_section .feature_image .phone_image {
+    left: -50px;
+    bottom: -25px;
+    position: absolute;
+}
+@media screen and (max-width: 1480px) {
+.feature_section .feature_image .watch_image {
+    right: -10px;
+    bottom: 20px;
+    max-width: 60px;
+}
+}
+.feature_section .feature_image .watch_image {
+    right: -10px;
+    bottom: 23px;
+    position: absolute;
+}
+@media (min-width: 992px){
+.col-lg-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+}
+.ml--30 {
+    margin-left: -30px;
+}
+.text-white {
+    color: #fff!important;
+}
+.section_title .icon {
+    z-index: 1;
+    height: 75px;
+    font-size: 48px;
+    line-height: 75px;
+    position: relative;
+    display: inline-block;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.feature_section .section_title .title_text {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.section_title.text-white .title_text {
+    color: #ffffff;
+}
+.section_title.text-white .icon:before {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.section_title .icon:before {
+    top: 0%;
+    left: 50%;
+    z-index: -1;
+    content: "";
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    background-color: rgba(48, 28, 171, 0.2);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+}
+.c_slide_in_wrap3 {
+    font-size: 34px;
+    padding-bottom: 6px;
+    line-height: 1.5;
+}
+.section_title #awescolor {
+    font-size: 15px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+}
+/* btn */
+.btn.border_white {
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+.btn.btn_border {
+    padding: 18px 50px;
+    padding-bottom: 19px;
+}
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+}
+.btn {
+    z-index: 2;
+    outline: none;
+    line-height: 1;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    border-radius: 45px;
+    transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn.border_white:hover:before {
+    width: 100%;
+    background-color: #ffffff;
+}
+.btn.border_white:hover {
+    color: #4154f1;
+}
+.btn::before {
+    top: 0px;
+    right: auto;
+    left: 0px;
+    bottom: 0px;
+    content: "";
+    z-index: -1;
+    width: 0px;
+    position: absolute;
+    transition: width 0.3s linear;
+}
+
+/* btn */
+
+.textBold {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600 !important;   
+}
+.textSize {
+    font-size: 16px !important;
+}

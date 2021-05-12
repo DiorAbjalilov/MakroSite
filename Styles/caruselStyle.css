@@ -1,0 +1,114 @@
+
+section {
+  width: 680px;
+  position: relative;
+  overflow: hidden;
+}
+main {
+  display: flex;
+  width: 500%;
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: translateX(0%);
+}
+article {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0px 0;
+  height: auto;
+  transform: translateX(0);
+}
+article .img {
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: 99%;
+  background-repeat: no-repeat;
+  background-image: url('../Imgs/man/shape_30.png');
+}
+article .img img {
+    border-radius: 50%;
+}
+article .info {
+  padding: 30px 10px;
+  text-align: center;
+  margin: 0;
+}
+article .info h3 {
+  margin: 0px 0 5px 0;
+  font-size: 24px;
+  /* letter-spacing: 1.2px; */
+  color: #051441;
+}
+article .info > span {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6a7c92;
+    display: block;
+}
+article .info p {
+  font-size: 15px;
+  color: #6a7c92;
+  font-weight: 600;
+  line-height: 1.867;
+  padding: 10px 0;
+}
+section .btns {
+  width: 70%;
+  height: 30px;
+  position: absolute;
+  z-index: 2222;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  animation: anime 0.3s forwards;
+  -webkit-animation: anime 0.3s forwards;
+}
+@keyframes anime {
+  0%,
+  50% {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+  }
+  40%,
+  100% {
+    transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+  }
+}
+.box {
+  transition: 0.3s;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
